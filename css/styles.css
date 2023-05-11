@@ -20,7 +20,7 @@ p,li {
 /* Barra de Navegação */
 
 header, .navbar {
-    background-color: #B6B2B2;
+    background-color: #01052D;
 }
 
 #nav-container {
@@ -35,15 +35,15 @@ header, .navbar {
 
 .navbar-brand {
     padding: 0;
-    color: #01052D;
+    color: #FFF;
 }
 
 .navbar-brand:hover {
-    color: #01052D;
+    color: #FFF;
 }
 
 #navbar-links a {
-    color: #01052D;
+    color: #FFF;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -51,6 +51,10 @@ header, .navbar {
 }
 
 /* Slides */
+
+.container-fluid {
+    padding: 0;
+}
 
 #mainSlides .carousel-inner, #mainSlides .carousel-item {
     height: 90vh;
@@ -79,4 +83,47 @@ header, .navbar {
 
 .carousel-indicators .active {
     background-color: #007bff;
+}
+
+/* Sobre a empresa */
+
+#about-area {
+    background-color: #F9F9F9;
+}
+
+.main-title {
+    color: #01052D;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #01052D;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42%;
+}
+
+.about-title {
+    font-size: 17px;
+    color:#01052D;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #007bff;
+    margin-right: 15px;
 }
