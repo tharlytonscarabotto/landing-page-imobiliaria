@@ -441,3 +441,92 @@ header, .navbar {
         font-size: 16px;
     }
 }
+
+@media (max-width: 425px) {
+
+    /* navbar */
+    #logo {
+        width: 70px;
+        font-size: 8px;
+    }
+
+    /* slider */
+    #mainSlides {
+        margin-top: 50px;
+    }
+
+    #mainSlides .carousel-inner, #mainSlides .carousel-item {
+        height: 40vh;
+    }
+
+    #mainSlides .carousel-caption {
+        top: 15%;
+    }
+
+    #mainSlides .carousel-caption h2 {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlides .carousel-caption p {
+        display: none;
+    }
+
+    /* sobre nós */
+    .main-title {
+        font-size: 30px;
+    }
+
+    #about-area img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    /* dados */
+    .circle-box {
+        width: 50%;
+    }
+
+    /* time */
+
+    #team-area .col-md-3 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /* trabalhe conosco */
+    #apply-area {
+        height: auto;
+    }
+
+    #company-img {
+        display: none;
+    }
+
+    /* newsletter */
+    #news-area .main-title {
+        font-size: 24px;
+    }
+
+    #news-area p {
+        font-size: 16px;
+    }
+
+    #email-input {
+        width: 80%;
+    }
+
+    /* call to action */
+    #call-area p, #call-area #call-btn{
+        font-size: 14px;
+        letter-spacing: 0;
+        margin: 0;
+        width: 50%;
+    }
+
+    /* contato */
+    .contact-box {
+        border: none;
+        margin-bottom: 0;
+    }
+}
