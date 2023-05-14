@@ -112,14 +112,4 @@ $(document).ready(function() {
         $('#apply-area').parallax({imageSrc: 'img/pattern.png'})
 
     }, 250)
-
-
-    // Scroll para seções
-
-    
-
 })
-
- 
-
-    
